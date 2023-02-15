@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "1-sending-emails-with-python"
+version = "0.1.0"
+description = "Django add that enables you to send emails"
+authors = ["Desmond Afari <afaridesmond@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "1_sending_emails_with_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+python-dotenv = "^0.21.1"
+
+
+[tool.poetry.group.dev.dependencies]
+django-browser-reload = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
