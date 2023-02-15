@@ -111,6 +111,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+EMAIL_HOST = ''
+EMAIL_PORT = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = ''
+EMAIL_USE_SSL = ''
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 

@@ -8,13 +8,13 @@ run:
 
 .PHONY: migrate
 migrate:
-	peotry run python manage.py migrate
+	poetry run python manage.py migrate
 
 .PHONY: makemigration
 makemigration:
-	peotry run python manage.py makemigration
+	poetry run python manage.py makemigration
 
 .PHONY: createsuperuser
 createsuperuser:
-	peotry run python manage.py createsuperuser
+	poetry run python manage.py createsuperuser
 
